@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@500&family=Sansita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+h1 {
+    font-size: 8vw;
+}
+
+header {
+    background-image: url("img/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-header {
+    font-family: 'Sansita', sans-serif; 
+}
+
+
+.photos {
+    height: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+
+.bg-subheader {
+    font-family: 'Kenia', cursive;
+    background-color: #f0bf20;
+    border-radius: 20px;
+}
+
+.bg-footer {
+    background-color: #f0bf20;
+}
