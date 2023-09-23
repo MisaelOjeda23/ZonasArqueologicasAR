@@ -36,6 +36,8 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 .bg-subheader {
