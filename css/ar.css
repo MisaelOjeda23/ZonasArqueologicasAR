@@ -1,0 +1,11 @@
+body {
+    display: flex; 
+    justify-content: center;
+}
+
+iframe {
+    position: absolute;
+    width: 96%;
+    height: 98%;
+    border: none;
+}
