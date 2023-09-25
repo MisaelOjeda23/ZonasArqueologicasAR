@@ -28,7 +28,9 @@ header {
     font-family: 'Kenia', cursive;
 }
 .card-text {
-    font-size: 13px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #6a6b71f4;
 }
 
 .photos {

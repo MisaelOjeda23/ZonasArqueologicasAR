@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@500&family=Sansita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"); 
+
+body {
+    background-color: #f7f6f6f8;
+}
+
+h1 {
+    font-size: 8vw;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+header {
+    background-image: url("../img/bg-acanceh.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-header {
+    font-family: 'Sansita', sans-serif; 
+}
+
+.card-title {
+    font-family: 'Kenia', cursive;
+}
+
+.card-subtitle {
+    color: #6a6b71f4;
+}
+
+.card-text {
+    font-size: 13px;
+}
+
+.container-fluid {
+    background-image: url("../img/acanceh-history.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.container-img {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.container-img.active{
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+}
+
+.container-img img {
+    z-index: 1;
+}
+
+.container-img.active::after {
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.384);
+    z-index: 0;
+} 
+
+.bg-subheader {
+    font-family: 'Kenia', cursive;
+    background-color: #f0bf20;
+    border-radius: 20px;
+}
+
+.bg-footer {
+    background-color: #f0bf20;
+}
+
+.bi-geo-alt, .bi-badge-ar, .bi-signpost {
+    cursor: pointer;
+    font-size: 10vw;
+}
+
+.color-warning {
+    color:#f0bf20;
+}
